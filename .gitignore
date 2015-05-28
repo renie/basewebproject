@@ -1,0 +1,8 @@
+/.project
+/.idea
+.idea/
+.idea
+/node_modules
+/build
+/src/style/css
+npm-debug.log

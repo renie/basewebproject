@@ -1,0 +1,42 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, em, img, strong,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+article, aside, canvas, footer, header,
+menu, nav, section, figure {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+* {
+	font-size: $base-text-size;
+	font-family: $font-family;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.clearfix {
+	display: block;
+}
+
+.clearfix:after {
+	content: '';
+	height: 0;
+	width: 0;
+	clear: both;
+	display: block;
+}
